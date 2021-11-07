@@ -88,7 +88,7 @@ export default () => {
               style={{
                 cursor: 'pointer',
                 display: 'inline-flex',
-                width: '160px',
+                width: '142px',
                 height: '100px',
               }}
             >
@@ -115,6 +115,21 @@ yarn add @alex_xu/react-loading
 import { BallPulse, BallClipRotate, SquareSpin } from '@alex_xu/react-loading';
 
 export default () => <BallClipRotate text="H5-Dooring" />;
+```
+
+## 按需导入配置
+
+```js
+extraBabelPlugins: [
+    [
+      'babel-plugin-import',
+      {
+        libraryName: '@alex_xu/react-loading',
+        libraryDirectory: 'es',
+        style: true,
+      },
+    ],
+  ],
 ```
 
 ### More Production

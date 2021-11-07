@@ -108,7 +108,7 @@ export default () => {
               style={{
                 cursor: 'pointer',
                 display: 'inline-flex',
-                width: '160px',
+                width: '142px',
                 height: '100px',
               }}
             >

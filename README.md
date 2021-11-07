@@ -19,6 +19,21 @@ import { BallPulse, BallClipRotate, SquareSpin } from '@alex_xu/react-loading';
 export default () => <BallClipRotate text="H5-Dooring" />;
 ```
 
+## 按需导入配置
+
+```js
+extraBabelPlugins: [
+    [
+      'babel-plugin-import',
+      {
+        libraryName: '@alex_xu/react-loading',
+        libraryDirectory: 'es',
+        style: true,
+      },
+    ],
+  ],
+```
+
 ### More Production
 
 | name                                                                              | Description                                                                             |
