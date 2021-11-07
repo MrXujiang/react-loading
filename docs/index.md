@@ -126,6 +126,7 @@ extraBabelPlugins: [
       {
         libraryName: '@alex_xu/react-loading',
         libraryDirectory: 'es',
+        camel2DashComponentName: false,
         style: true,
       },
     ],

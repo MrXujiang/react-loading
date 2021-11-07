@@ -2,6 +2,8 @@
 
 react-loading, 一款基于 react 的轻量级加载动画库, 支持按需导入, 开箱即用!
 
+![react-loading](http://cdn.dooring.cn/dr/react-loading.gif)
+
 ## [Demo](http://h5.dooring.cn/react-loading)
 
 ### Install | 安装
@@ -28,6 +30,7 @@ extraBabelPlugins: [
       {
         libraryName: '@alex_xu/react-loading',
         libraryDirectory: 'es',
+        camel2DashComponentName: false,
         style: true,
       },
     ],

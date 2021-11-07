@@ -1,4 +1,4 @@
-### 基本使用:
+### 基本使用
 
 ```tsx
 import React from 'react';
@@ -8,7 +8,7 @@ import {
   BallClipRotate,
   LineScale,
   LineScalePulseOut,
-} from 'react-loading';
+} from '@alex_xu/react-loading';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 const list = [
